@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BALAJI INDUSTRIES Rajkot">
+    <meta name="keywords" content="BALAJI, rajkot BALAJI PRODUCT">
+    <title>Home - Balaji Industries</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/icons-hero.png">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/pagestyle.css">
+    <link rel="stylesheet" href="css/respons.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div id="loader">
+        <div>
+            <img src="./img/Timmerman.png" data-aos="fade-up" data-aos-duration="1500">
+        </div>
+    </div>
+
+    <div class="container main-nabar">
+        <nav class="navbar navbar-light">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="brand" href="./homepage.html">
+                        <img class="brand-logo" src="./img/balajiindlogo-removebg-preview.png" alt="balaji Industries"
+                            data-aos="fade-right" data-aos-duration="3000">
+                    </a>
+                </div>
+                <ul class="navigation">
+                    <li class="navbar-desk"><a class="nav-link active" href="./homepage.html">Home</a></li>
+                    <li class="navbar-desk"><a class="nav-link about" href="./about.html">About</a></li>
+                    <li class="dropdown">
+                        <button class="dropbtn">Products
+                            <i class="fa fa-caret-down">
+                                <a class="nav-prod-icon">
+                                    <img class="prod-icon"
+                                        src="./img/9024563_device_mobile_light_icon-removebg-preview.png">
+                                </a>
+                            </i>
+                        </button>
+                        <ul class="dropdown-content">
+                            <li><a class="dropdown-link" href="./plastic.html">Plastic Products</a></li>
+                            <li><a class="dropdown-link" href="/acrylic.html">Acrylic Products</a></li>
+                            <li><a class="dropdown-link" href="./hdproduct.html">Hardwar Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar-desk">
+                        <a class="nav-link contact" href="./contect.html" data-aos="fade-right">Contact</a>
+                    </li>
+                </ul>
+
+                <div data-aos="fade-left" data-aos-duration="3000">
+                    <a class="btn-ragular buy-now" href="https://api.whatsapp.com">Buy Now</a>
+                </div>
+
+                <div class="navbar-brand">
+                    <a class="brand-mobile" href="./homepage.html">
+                        <img class="brand-logo-mobile" src="./img/balajiindlogo-removebg-preview.png"
+                            alt="balaji Industries" data-aos="fade-right" data-aos-duration="3000">
+                    </a>
+                </div>
+                <button class="navbar-toggler icon" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabe">
+                    <div class="offcanvas-header">
+
+                        <a class="offcanvas-title">
+                            <img class="brand-logo-mobile" src="./img/balajiindlogo-removebg-preview.png"
+                                alt="balaji Industries" data-aos="fade-right" data-aos-duration="3000">
+                        </a>
+
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav pe-3">
+                            <li class="nav-item">
+                                <a class="navcanvas-link" href="./homepage.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navcanvas-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navcanvas-link" href="./plastic.html">Plastic Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navcanvas-link" href="./acrylic.html">Acrylic Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navcanvas-link" href="./hdproduct.html">Hardwar Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navcanvas-link" href="./contect.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="swiper mySwiper hero-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./img/hd6.jpg" class="slider-image" alt="...">
+                <div class="container">
+                    <div class="swiper-slider-animation">
+                        <div class="swiper-slider-content">
+                            <h6 class="head-text"><span>REFLECT BRAND
+                                    IDENTITY</span></h6>
+                            <div class="first-line"></div>
+                            <h1 class="paragraph-text">Show Your <span class="text-yellow">Brand image</span>
+                                <br>on <span class="text-yellow">every Product</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide"><img src="./img/hd7.jpg" class="slider-image img-fluid" alt="...">
+                <div class="container">
+                    <div class="swiper-slider-animation">
+                        <div class="swiper-slider-content ">
+                            <h6 class="head-text"><span>EVERY PRODUCT PARFECT WORK</span></h6>
+                            <div class="first-line"></div>
+                            <h1 class="paragraph-text"> Also <span class="text-yellow">saves</span> your time for<span
+                                    class="text-yellow"> work at fast</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide"><img src="./img/hd5.jpg" class="slider-image" alt="...">
+                <div class="container">
+                    <div class="swiper-slider-animation">
+                        <div class="swiper-slider-content ">
+                            <h6 class="head-text"><span>UNIQUE PRODUCTS</span></h6>
+                            <div class="first-line"></div>
+                            <h1 class="paragraph-text">
+                                Diffrent Types Of
+                                <span class="text-yellow">Products Manufacturers
+                                </span>
+                                In<span class="text-yellow"> Our Industries</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide"><img src="./img/plasticprod4.jpg" class="slider-image" alt="...">
+                <div class="container">
+                    <div class="swiper-slider-animation">
+                        <div class="swiper-slider-content ">
+                            <h6 class="head-text"><span>BEST PRODUCTS</span></h6>
+                            <div class="first-line"></div>
+                            <h1 class="paragraph-text">In Our Industries <span class="text-yellow">Best Quallty</span>
+                                and
+                                Best<span class="text-yellow"> Products Provide</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next slider-btn-next"></div>
+        <div class="swiper-button-prev slider-btn-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <div class="xyz">
+        <section class="container">
+            <div class="section1">
+                <div class="row rang-image1">
+                    <div class="col-md-12">
+                        <div class="prod-titel" data-aos="fade-down" data-aos-duration="1000">
+                            <h2 class="img-titel">Range Of Products</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-4" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="product rjb">
+                            <div class="prod-img">
+                                <a target="_blank" href="./img/main slider.png">
+                                    <img class="abc img-set" src="./img/main slider.png">
+                                </a>
+                            </div>
+                            <div class="prod-content">
+                                <h3 class="prod-titel"><a class="prod-link" href="">Acrylic Product</a></h3>
+                                <a class="prod-detail-icon" href="./acrylic.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                                        <rect fill="none" height="256" width="256" />
+                                        <rect fill="none" height="208" rx="16" stroke="#000" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="12" width="128" x="64" y="24" />
+                                        <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="12" x1="64" x2="192" y1="56" y2="56" />
+                                        <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="12" x1="64" x2="192" y1="200" y2="200" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="product rjb">
+                            <div class="prod-img">
+                                <a target="_blank" href="./img/hd4.png">
+                                    <img class="abc img-set" src="./img/hd4.png">
+                                </a>
+                            </div>
+                            <div class="prod-content">
+                                <h3 class="prod-titel"><a class="prod-link" href="">Hardware Product</a></h3>
+                                <a class="prod-detail-icon" href="./hdproduct.html"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                                        <rect fill="none" height="256" width="256" />
+                                        <rect fill="none" height="208" rx="16" stroke="#000" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="12" width="128" x="64" y="24" />
+                                        <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="12" x1="64" x2="192" y1="56" y2="56" />
+                                        <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="12" x1="64" x2="192" y1="200" y2="200" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-4" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="product rjb">
+                            <div class="prod-img">
+                                <a target="_blank" href="./img/acr6.png">
+                                    <img class="abc img-set" src="./img/acr6.png">
+                                </a>
+                            </div>
+                            <div class="prod-content">
+                                <h3 class="prod-titel"><a class="prod-link" href="">Plastic Product</a></h3>
+                                <a class="prod-detail-icon" href="./plastic.html"><svg
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                                        <rect fill="none" height="256" width="256" />
+                                        <rect fill="none" height="208" rx="16" stroke="#000" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="12" width="128" x="64" y="24" />
+                                        <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="12" x1="64" x2="192" y1="56" y2="56" />
+                                        <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="12" x1="64" x2="192" y1="200" y2="200" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section class="container">
+        <div class="section2">
+            <div class="row align-items-center ">
+                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                    <img src="./img/hd7.jpg" class="img-fluid hd-product">
+                </div>
+                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+
+                    <h1 class="heading my-3 cont-detail">
+                        Light, Fast & Powerful</h1>
+                    <p class="paragraph my-3 cont-detail">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br> Aenean
+                        commodo
+                        ligula
+                        eget dolor. Aenean massa. Cum <br> sociis natoque penatibus et magnis dis parturient
+                        montes,<br>
+                        nascetur
+                        ridiculus <br><br> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium <br> quis,
+                        sem.
+                        Nulla
+                        consequat massa quis
+                        enim.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="section3">
+
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                    <img src="./img/hd6.jpg" class="img-fluid hd-product">
+                </div>
+
+                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+
+                    <h1 class="heading my-3 cont-detail">Light, Fast &
+                        Powerful</h1>
+                    <p class="paragraph my-3 cont-detail">Lorem ipsum
+                        dolor sit amet,
+                        consectetuer adipiscing elit. <br> Aenean
+                        commodo
+                        ligula
+                        eget dolor. Aenean massa. Cum <br> sociis natoque penatibus et magnis dis parturient
+                        montes,<br>
+                        nascetur
+                        ridiculus <br><br> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium <br> quis,
+                        sem.
+                        Nulla
+                        consequat massa quis
+                        enim.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="section4">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                    <img src="./img/hd1.png" class="img-fluid hd-product">
+                </div>
+
+                <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2000">
+                    <h1 class="heading my-3 cont-detail">Light, Fast &
+                        Powerful</h1>
+                    <p class="paragraph my-3 cont-detail">Lorem ipsum
+                        dolor sit amet,
+                        consectetuer adipiscing elit. <br> Aenean
+                        commodo
+                        ligula
+                        eget dolor. Aenean massa. Cum <br> sociis natoque penatibus et magnis dis parturient montes,
+                        <br>
+                        nascetur
+                        ridiculus <br><br> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium <br>quis,
+                        sem.
+                        Nulla
+                        consequat massa quis
+                        enim.
+                    </p>
+
+                    <div class="btn-now">
+                        <a class="btn-ragular" href="https://api.whatsapp.com" target="_blank">Purchase
+                            Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto text-center">
+                <div class="titel-area">
+                    <h2 class="partn-titel" data-aos="fade-up" data-aos-duration="1000">Authorised Partners</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="slick-slider">
+                    <div class="items">
+                        <div class="slick-img"><img src="./img/Untitled_design__2_-removebg-preview.png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled_design__6_-removebg-preview.png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled design (3).png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled design (1).png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled_design__6_-removebg-preview.png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled_design__5_-removebg-preview.png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled design (1).png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled_design__2_-removebg-preview.png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled design (3).png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled design (1).png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled_design__2_-removebg-preview.png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled design (3).png">
+                        </div>
+                        <div class="slick-img"><img src="./img/Untitled design (1).png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer d-flex">
+        <div class="row">
+            <div class="col-md-auto">
+                <div class="widget-social">
+                    <div class="footer-social">
+                        <div class="logo">
+                            <a class="footer-logo" href="#"><img src="./img/balajiindlogo-removebg-preview.png"
+                                    class="img-logo" data-aos="fade-right" data-aos-duration="2000">
+                            </a>
+                        </div>
+                        <ul class="social-link">
+                            <li> <a href="https://www.facebook.com" target="_blank" title="facebook"
+                                    class="footer-icon">
+                                    <img class="lagy" src="./img/facebook.png" data-aos="fade-up"
+                                        data-aos-duration="2000">
+                                </a>
+                            </li>
+                            <li><a href="https://api.whatsapp.com" target="_blank" title="whatsapp" class="footer-icon">
+                                    <img class="lagy" src="./img/whatsapp.png" data-aos="fade-down"
+                                        data-aos-easing="linear" data-aos-duration="2000">
+                                </a>
+                            </li>
+                            <li> <a href="https://www.instagram.com" target="_blank" title="instagram"
+                                    class="footer-icon">
+                                    <img class="lagy" src="./img/instagram.png" data-aos="fade-up"
+                                        data-aos-duration="2000">
+                                </a>
+                            </li>
+                            <li> <a href="https://twitter.com" target="_blank" title="twitter" class="footer-icon">
+                                    <img class="lagy" src="./img/twitter.png" data-aos="fade-down"
+                                        data-aos-easing="linear" data-aos-duration="2000">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-auto">
+                        <div class="widget-link allpage-menu">
+                            <h3 class="widget-titel" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="1500">Other Link</h3>
+                            <ul class="footer-list">
+                                <li data-aos="fade-up" data-aos-duration="1000"><a href="./homepage.html">Home</a></li>
+                                <li data-aos="fade-up" data-aos-duration="1500"><a href="./about.html">About
+                                        Us</a></li>
+                                <li data-aos="fade-up" data-aos-duration="3000"><a href="./contect.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-auto">
+                <div class="widget-product product-menu">
+                    <h3 class="widget-titel" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"">Our Product</h3>
+                        <ul class=" footer-list">
+                        <li data-aos="fade-up" data-aos-duration="1000"><a href="./plastic.html">Plastic Products</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-duration="1500"><a href="./acrylic.html">Acrylic Products</a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-duration="3000"><a href="./hdproduct.html">Hardwar Products </a>
+                        </li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="col-auto">
+                <div class="widget-addres footer-contact">
+                    <h3 class="widget-titel" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        Contact Us</h3>
+                    <div class="footer-about">
+                        <div class="addres contect-icon">
+                            <a data-aos="fade-up" data-aos-duration="1500"><img
+                                    src="./img/7123032_pin_map_google_icon.svg"></a>
+                            <p class="footer-info" data-aos="fade-up" data-aos-duration="1500">
+                                Om Nagar, Near Movdi Circal,<br> 150 Feet Ring Road,<br> Rajkot, Gujrat India 360004
+                            </p>
+                        </div>
+
+                        <div class="mail contect-icon">
+                            <a data-aos="fade-up" data-aos-duration="1500"><img
+                                    src="./img/7123031_mail_google_gmail_icon.svg"></a>
+                            <a href="#" class="footer-info wow " target="_blank" data-aos="fade-up"
+                                data-aos-duration="1500">balajiIndustries@gmail.com</a>
+                        </div>
+                        <!-- <br> -->
+                        <div class="phone-nu contect-icon">
+                            <a data-aos="fade-up" data-aos-duration="1500"><img
+                                    src="./img/7627470_app_communication_call_phone_conversation_icon (1).png"></a>
+                            <a href="tel:+91 1234567890" class="footer-info wow" data-aos="fade-up"
+                                data-aos-duration="2000">+91 1234567890</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-rights">
+
+        <hr class="line">
+
+        <div class="copyright">
+            <p class="copyright-text text-center">All Rights Reserved By
+                <a href="./homepage.html" class="link">
+                    <b>Balaji Industries</b>
+                </a>
+                <span class=""> - Copyright ©2023
+                </span> | <span class="devloper"> Developed by HARSH BHANDERI</span>
+            </p>
+        </div>
+    </div>
+
+    <div id="scrollToTopBtn">
+        <i class="fas fa-chevron-up active">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 48 48" width="48">
+                <path d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z" />
+                <path d="M0 0h48v48h-48z" fill="none" />
+            </svg>
+        </i>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div id="whatsapp" class="whatsapp-button whatsapp-call" data-aos="fade-right" data-aos-duration="1000">
+                <a href="https://api.whatsapp.com" target="_blank">
+                    <img src="./img/whatsapp.png">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() >= 400) {
+                    $('#scrollToTopBtn').addClass('active');
+                } else {
+                    $('#scrollToTopBtn').removeClass('active');
+                }
+            });
+            $('#scrollToTopBtn').click(function () {
+                // $("html, body").animate({ scrollTop: 0 }, "slow");
+                // return false;
+                $(window).scrollTop(0);
+            });
+        });
+
+
+    </script>
+</body>
+
+</html>

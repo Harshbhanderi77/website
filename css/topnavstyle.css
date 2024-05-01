@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.desktop-logo {
+  align-items: center;
+  justify-content: center;
+  margin-left: 260px;
+  color: #37447e;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 38px;
+}
+
+.offcanvas-title {
+  align-items: center;  
+  color: #37447e;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 38px;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.navigtion {
+  direction: none;
+}
+
+.navbar-desk a {
+  text-decoration: none;
+  margin-right: 50px;
+  color: #505f98;
+}
+
+.btn-fill {
+  margin-left: 320px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #091133;
+  color: #fff;
+  border: 1px solid #091133;
+  padding: 5px 38px;
+  border-radius: 2px;
+}
+
+.navbar-toggler {
+  /* display: none; */
+}
+
+.btn-info {
+  background-color: #091133;
+  color: #fff;
+  border: 1px solid #091133;
+  padding: 5px 38px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
